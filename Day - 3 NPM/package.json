@@ -1,0 +1,22 @@
+{
+  "name": "day---3-npm",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "boom": "node ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "accessibility": "^3.0.17",
+    "concurrency": "^0.1.4",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "chalk": "^5.6.2",
+    "nodemon": "^3.1.10"
+  }
+}

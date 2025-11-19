@@ -70,7 +70,7 @@ console.log(ans);
 */
 //? it returns first occurance of an element.
 
-//! indesOf()
+//! indexOf()
 
 // console.log(arr.indexOf(12));
 //? indexOf()  :--->  it returns index of element if found otherwise returns -1.
@@ -118,6 +118,7 @@ console.log(x);
 //? Those code who have async nature, send those code to the sidetrack and runs those code who have sync nature, when all sync code are runs, then check async code is completed or not and if completed then send them to the main call stak and execute them.
 
 //? in the sidestack they only to be processed but they cant be executed.
+
 
 async function abcd() {
     let blob = await fetch(`https://randomuser.me/api/`);
